@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Joes.Common", "src\Joes.Common\Joes.Common.xproj", "{FEB776FA-1DE3-4F36-90A5-A4B537E9123B}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Joes.Common.Tester", "src\Joes.Common.Tester\Joes.Common.Tester.xproj", "{563E6EE9-7F4C-4D94-991E-B9C40EBFAB5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{FEB776FA-1DE3-4F36-90A5-A4B537E9123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB776FA-1DE3-4F36-90A5-A4B537E9123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB776FA-1DE3-4F36-90A5-A4B537E9123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563E6EE9-7F4C-4D94-991E-B9C40EBFAB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563E6EE9-7F4C-4D94-991E-B9C40EBFAB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563E6EE9-7F4C-4D94-991E-B9C40EBFAB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563E6EE9-7F4C-4D94-991E-B9C40EBFAB5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FEB776FA-1DE3-4F36-90A5-A4B537E9123B} = {A8A613D2-41B4-42FC-86E0-3CA67417AA39}
+		{563E6EE9-7F4C-4D94-991E-B9C40EBFAB5A} = {A8A613D2-41B4-42FC-86E0-3CA67417AA39}
 	EndGlobalSection
 EndGlobal

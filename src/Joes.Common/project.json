@@ -1,12 +1,21 @@
 ﻿{
+  "authors": [ "Joes" ],
   "dependencies": {
     "NETStandard.Library": "1.6.0",
-    "Newtonsoft.Json": "9.0.1"
+    "Newtonsoft.Json": "9.0.1",
+    "System.Security.Cryptography.Csp": "4.3.0-preview1-24530-04"
   },
+  "description": "Common class library",
   "frameworks": {
     "netstandard1.6": {
       "imports": "dnxcore50"
     }
   },
-  "version": "1.0.0"
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joesjiang/common"
+    }
+  },
+  "version": "1.0.5"
 }
